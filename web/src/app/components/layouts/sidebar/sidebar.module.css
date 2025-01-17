@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+}
+.title {
+  display: flex;
+}
+.Sidebar {
+  display: flex;
+  margin-left: 300px;
+}
+.SidebarList {
+  list-style: none;
+}
+
+.ListName {
+  padding: 15px 10px;
+}
+.Link {
+  color: #333;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+.Link:hover {
+  border-radius: 30px;
+  background-color: #777;
+  padding: 5px 10px;
+}
+
+/* Button */
+
+.button {
+  margin: 20px 20px 20px 120px;
+  padding: 5px 10px;
+  border-radius: 30px;
+  color: #333;
+}
+.BLink {
+  color: #333;
+  text-decoration: none;
+}
