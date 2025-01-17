@@ -1,7 +1,8 @@
 import React from "react";
+import classes from "@/app/pages/HomePage/home.module.css";
 
 const home = () => {
-  return <div></div>;
+  return <></>;
 };
 
 export default home;
