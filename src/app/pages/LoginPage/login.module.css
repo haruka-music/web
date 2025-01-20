@@ -1,6 +1,6 @@
 .bistro {
   width: 100vw;
-  height: 100vh;
+  /* height: 100vh; */
   postion: relative;
   overflow: hidden;
 }
@@ -16,17 +16,17 @@
   width: 100%;
   text-align: center;
 }
-.bstro > .images {
+/* .bstro > .images {
   position: absolute;
   z-index: 1;
   width: auto;
   height: 105%;
-}
-
-/* .bstro > .button {
-  postion: absolute;
-  z-index: 1;
 } */
+
+.button {
+  /* postion: absolute;
+  z-index: 1; */
+}
 
 .section {
   text-align: center;
