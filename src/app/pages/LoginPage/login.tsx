@@ -14,9 +14,9 @@ const login = () => {
         <div className={classes.ImageParticles}></div>
         <div className={classes.images}>
           <Image src={eat} alt="猫" />
+          <button className={classes.button}>Book A Table</button>
+          <button className={classes.button}>Explore Menu</button>
         </div>
-        <button className={classes.button}>Book A Table</button>
-        <button className={classes.button}>Explore Menu</button>
       </div>
       <section className={classes.section}>section</section>
     </>
