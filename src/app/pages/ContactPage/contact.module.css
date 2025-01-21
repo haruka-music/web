@@ -1,0 +1,47 @@
+/* section */
+.section {
+  text-align: center;
+}
+
+.headline {
+  margin-top: 30px;
+}
+
+/* .form */
+.input {
+  cursor: pointer;
+}
+
+.table {
+  margin: 0 auto;
+  margin-bottom: 30px;
+  background-color: #6495ed;
+}
+.tbody {
+  border: solid 1px;
+}
+
+.th {
+  padding: 10px;
+  text-align: left;
+}
+
+.td {
+  padding: 10px;
+  cursor: pointer;
+}
+.label {
+  margin-right: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .table,
+  .table tbody,
+  .table tr,
+  .table th,
+  .table td {
+    display: block;
+  }
+}
