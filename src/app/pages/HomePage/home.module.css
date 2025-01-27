@@ -1,0 +1,36 @@
+.bistro {
+  width: 100vw;
+  height: 100vh;
+  postion: relative;
+  overflow: hidden;
+}
+.bistro > .strong {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 120px;
+  font-weight: bold;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.button {
+  margin: 5px;
+  padding: 10px 30px 10px 30px;
+  border-radius: 50px;
+  font-size: 20px;
+  border: none;
+  box-shadow: 5px 5px 0 #333;
+  transition: 0.2s;
+}
+.button:hover {
+  background-color: #8b0000;
+  transform: translateY(2px);
+}
+
+.header {
+  text-align: center;
+  font-size: 50px;
+}
