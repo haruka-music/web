@@ -5,6 +5,8 @@ import classes from "@/app/pages/HomePage/home.module.css";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBowlFood } from "@fortawesome/free-solid-svg-icons";
+import { faGlassWater } from "@fortawesome/free-solid-svg-icons";
+import { faCakeCandles } from "@fortawesome/free-solid-svg-icons";
 
 const home = () => {
   return (
@@ -25,11 +27,60 @@ const home = () => {
       <section className={classes.section}>
         <h1 className={classes.headline}>Browse Our Menu</h1>
 
-        <ul>
-          <li>
-            <dl>
-              <dt>
+        {/* <ul className={`${classes.Grid} ${classes.col4}`}> */}
+        <ul className={classes.Grid}>
+          <li className={classes.GridItem}>
+            <dl className={classes.future}>
+              <dt className={classes.FutureIcon}>
                 <FontAwesomeIcon icon={faBowlFood} className={classes.icon} />
+              </dt>
+              <dd>Breakfast</dd>
+              <dd>
+                In the new era of technology we look in the future with
+                certainty and pride for our life.
+              </dd>
+              <Link className={classes.Link} to="/">
+                Explore Menu
+              </Link>
+            </dl>
+          </li>
+          <li className={classes.GridItem}>
+            <dl className={classes.future}>
+              <dt className={classes.FutureIcon}>
+                <FontAwesomeIcon icon={faBowlFood} className={classes.icon} />
+              </dt>
+              <dd>Breakfast</dd>
+              <dd>
+                In the new era of technology we look in the future with
+                certainty and pride for our life.
+              </dd>
+              <Link className={classes.Link} to="/">
+                Explore Menu
+              </Link>
+            </dl>
+          </li>
+          <li className={classes.GridItem}>
+            <dl className={classes.future}>
+              <dt className={classes.FutureIcon}>
+                <FontAwesomeIcon icon={faGlassWater} className={classes.icon} />
+              </dt>
+              <dd>Breakfast</dd>
+              <dd>
+                In the new era of technology we look in the future with
+                certainty and pride for our life.
+              </dd>
+              <Link className={classes.Link} to="/">
+                Explore Menu
+              </Link>
+            </dl>
+          </li>
+          <li className={classes.GridItem}>
+            <dl className={classes.future}>
+              <dt className={classes.FutureIcon}>
+                <FontAwesomeIcon
+                  icon={faCakeCandles}
+                  className={classes.icon}
+                />
               </dt>
               <dd>Breakfast</dd>
               <dd>
