@@ -16,7 +16,7 @@ const sidbar = () => {
       <div className={classes.Sidebar}>
         <ul className={classes.SidebarList}>
           <li className={classes.ListName}>
-            <Link className={classes.Link} to="/Home">
+            <Link className={classes.Link} to="/">
               Home
             </Link>
           </li>
@@ -24,7 +24,7 @@ const sidbar = () => {
 
         <ul className={classes.SidebarList}>
           <li className={classes.ListName}>
-            <Link className={classes.Link} to="/Player">
+            <Link className={classes.Link} to="/About">
               About
             </Link>
           </li>
@@ -32,7 +32,7 @@ const sidbar = () => {
 
         <ul className={classes.SidebarList}>
           <li className={classes.ListName}>
-            <Link className={classes.Link} to="/Toolphoto">
+            <Link className={classes.Link} to="/Menu">
               Menu
             </Link>
           </li>
@@ -40,7 +40,7 @@ const sidbar = () => {
 
         <ul className={classes.SidebarList}>
           <li className={classes.ListName}>
-            <Link className={classes.Link} to="/Movies">
+            <Link className={classes.Link} to="/Pages">
               Pages
             </Link>
           </li>
