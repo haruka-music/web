@@ -34,3 +34,38 @@
   text-align: center;
   font-size: 50px;
 }
+
+/* 
+section 
+*/
+
+.headline {
+  text-align: center;
+}
+.Grid {
+  display: flex;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  align-items: center;
+  justify-content: center;
+}
+.GridItem {
+  list-style: none;
+}
+.col2 > .GridItem {
+  width: 50%;
+}
+.col3 > .GridItem {
+  width: 33.3%;
+}
+.col4 > .GridItem {
+  width: 25%;
+}
+
+.future {
+}
+.FutureIcon {
+}
+.icon {
+}
