@@ -41,17 +41,21 @@ section
 
 .headline {
   text-align: center;
+  font-size: 50px;
 }
 .Grid {
   display: flex;
   text-align: center;
-  margin: 0px;
+  margin: 0px 120px;
   padding: 0px;
   align-items: center;
   justify-content: center;
 }
 .GridItem {
   list-style: none;
+  border: 1px solid;
+  border-radius: 10px;
+  margin: 10px;
 }
 .col2 > .GridItem {
   width: 50%;
@@ -65,7 +69,21 @@ section
 
 .future {
 }
-.FutureIcon {
-}
+/* .FutureIcon {
+} */
 .icon {
+  margin: 20px;
+}
+.FutureHeadline {
+  margin: 10px;
+}
+.description {
+  margin: 30px;
+}
+.LinkMenu {
+  margin-bottom: 40px;
+}
+.Link {
+  color: #8b0000;
+  text-decoration: none;
 }

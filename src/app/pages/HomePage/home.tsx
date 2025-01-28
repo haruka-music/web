@@ -34,14 +34,16 @@ const home = () => {
               <dt className={classes.FutureIcon}>
                 <FontAwesomeIcon icon={faBowlFood} className={classes.icon} />
               </dt>
-              <dd>Breakfast</dd>
-              <dd>
+              <dd className={classes.FutureHeadline}>Breakfast</dd>
+              <dd className={classes.description}>
                 In the new era of technology we look in the future with
                 certainty and pride for our life.
               </dd>
-              <Link className={classes.Link} to="/">
-                Explore Menu
-              </Link>
+              <div className={classes.LinkMenu}>
+                <Link className={classes.Link} to="/">
+                  Explore Menu
+                </Link>
+              </div>
             </dl>
           </li>
           <li className={classes.GridItem}>
@@ -49,14 +51,16 @@ const home = () => {
               <dt className={classes.FutureIcon}>
                 <FontAwesomeIcon icon={faBowlFood} className={classes.icon} />
               </dt>
-              <dd>Breakfast</dd>
-              <dd>
+              <dd className={classes.FutureHeadline}>Main Dishes</dd>
+              <dd className={classes.description}>
                 In the new era of technology we look in the future with
                 certainty and pride for our life.
               </dd>
-              <Link className={classes.Link} to="/">
-                Explore Menu
-              </Link>
+              <div className={classes.LinkMenu}>
+                <Link className={classes.Link} to="/">
+                  Explore Menu
+                </Link>
+              </div>
             </dl>
           </li>
           <li className={classes.GridItem}>
@@ -64,14 +68,16 @@ const home = () => {
               <dt className={classes.FutureIcon}>
                 <FontAwesomeIcon icon={faGlassWater} className={classes.icon} />
               </dt>
-              <dd>Breakfast</dd>
-              <dd>
+              <dd className={classes.FutureHeadline}>Drinks</dd>
+              <dd className={classes.description}>
                 In the new era of technology we look in the future with
                 certainty and pride for our life.
               </dd>
-              <Link className={classes.Link} to="/">
-                Explore Menu
-              </Link>
+              <div className={classes.LinkMenu}>
+                <Link className={classes.Link} to="/">
+                  Explore Menu
+                </Link>
+              </div>
             </dl>
           </li>
           <li className={classes.GridItem}>
@@ -82,14 +88,16 @@ const home = () => {
                   className={classes.icon}
                 />
               </dt>
-              <dd>Breakfast</dd>
-              <dd>
+              <dd className={classes.FutureHeadline}>Desserte</dd>
+              <dd className={classes.description}>
                 In the new era of technology we look in the future with
                 certainty and pride for our life.
               </dd>
-              <Link className={classes.Link} to="/">
-                Explore Menu
-              </Link>
+              <div className={classes.LinkMenu}>
+                <Link className={classes.Link} to="/">
+                  Explore Menu
+                </Link>
+              </div>
             </dl>
           </li>
         </ul>
