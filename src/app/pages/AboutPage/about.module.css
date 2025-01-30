@@ -1,3 +1,39 @@
 .figure {
   display: flex;
 }
+.image {
+  margin: 60px;
+}
+.figcaption {
+  margin: 60px;
+}
+.headline {
+  margin-top: 50px;
+}
+.description {
+  margin-top: 30px;
+}
+
+/* 
+section 
+*/
+.Grid {
+  display: flex;
+  margin: 60px;
+}
+.GridItem {
+  list-style: none;
+  margin: 20px;
+}
+.future {
+  display: flex;
+}
+.FutureIcon {
+}
+.icon {
+}
+.FutureHeadline {
+}
+.FDescription {
+  margin: 0px;
+}

@@ -13,14 +13,20 @@ const about = () => {
     <>
       <section className={classes.section}>
         <figure className={classes.figure}>
-          <Image src={eat} alt="猫" width={500} height={500} />
-          <figcaption>
-            <h1>
+          <Image
+            className={classes.image}
+            src={eat}
+            alt="猫"
+            width={400}
+            height={400}
+          />
+          <figcaption className={classes.figcaption}>
+            <h1 className={classes.headline}>
               We provide healthy
               <br />
               food for your family.
             </h1>
-            <p>
+            <p className={classes.description}>
               Our story began with a vision to create a unique dining
               <br />
               experience that merges fine dining,exceptional service,and a
@@ -48,36 +54,54 @@ const about = () => {
           <li className={classes.GridItem}>
             <dl className={classes.future}>
               <dt className={classes.FutureIcon}>
-                <FontAwesomeIcon icon={faFile} className={classes.icon} />
+                <FontAwesomeIcon
+                  icon={faFile}
+                  className={classes.icon}
+                  size="2x"
+                />
               </dt>
-              <dd className={classes.FutureHeadline}>Breakfast</dd>
-              <dd className={classes.description}>
-                In the new era of technology we look in the future with
-                certainty and pride for our life.
+              <dd className={classes.FutureHeadline}>
+                Breakfast
+                <dd className={classes.FDescription}>
+                  In the new era of technology we look in the future with
+                  certainty and pride for our life.
+                </dd>
               </dd>
             </dl>
           </li>
           <li className={classes.GridItem}>
             <dl className={classes.future}>
               <dt className={classes.FutureIcon}>
-                <FontAwesomeIcon icon={faList} className={classes.icon} />
+                <FontAwesomeIcon
+                  icon={faList}
+                  className={classes.icon}
+                  size="2x"
+                />
               </dt>
-              <dd className={classes.FutureHeadline}>Main Dishes</dd>
-              <dd className={classes.description}>
-                In the new era of technology we look in the future with
-                certainty and pride for our life.
+              <dd className={classes.FutureHeadline}>
+                Main Dishes
+                <dd className={classes.FDescription}>
+                  In the new era of technology we look in the future with
+                  certainty and pride for our life.
+                </dd>
               </dd>
             </dl>
           </li>
           <li className={classes.GridItem}>
             <dl className={classes.future}>
               <dt className={classes.FutureIcon}>
-                <FontAwesomeIcon icon={faClock} className={classes.icon} />
+                <FontAwesomeIcon
+                  icon={faClock}
+                  className={classes.icon}
+                  size="2x"
+                />
               </dt>
-              <dd className={classes.FutureHeadline}>Drinks</dd>
-              <dd className={classes.description}>
-                In the new era of technology we look in the future with
-                certainty and pride for our life.
+              <dd className={classes.FutureHeadline}>
+                Drinks
+                <dd className={classes.FDescription}>
+                  In the new era of technology we look in the future with
+                  certainty and pride for our life.
+                </dd>
               </dd>
             </dl>
           </li>
