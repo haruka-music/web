@@ -1,0 +1,30 @@
+.Grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+.GridItem {
+  list-style: none;
+  border: 1px solid;
+  margin: 20px;
+}
+.Card {
+  text-align: center;
+}
+.CardLink {
+}
+.label {
+}
+.image {
+  width: 100%;
+}
+.info {
+}
+.price {
+  color: red;
+}
+.headline {
+  text-decoration: none;
+  color: #333;
+}
+.description {
+}
