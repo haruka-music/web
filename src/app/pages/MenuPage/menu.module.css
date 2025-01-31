@@ -1,0 +1,30 @@
+.strong {
+  text-align: center;
+}
+.SpHeadline {
+  display: block;
+  font-family: cursive;
+  font-size: 60px;
+  margin: 0;
+}
+.Spdescription {
+}
+/* 
+button 
+*/
+.ButtonNav {
+  text-align: center;
+}
+.button {
+  margin: 5px;
+  padding: 10px 30px 10px 30px;
+  border-radius: 50px;
+  font-size: 20px;
+  border: none;
+  box-shadow: 5px 5px 0 #333;
+  transition: 0.2s;
+}
+.button:hover {
+  background-color: #8b0000;
+  transform: translateY(2px);
+}
