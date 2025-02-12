@@ -1,0 +1,19 @@
+.section {
+  background-color: #c0c0c0;
+}
+
+.figure {
+  display: flex;
+}
+.image {
+  margin: 60px;
+}
+.figcaption {
+  margin: 60px;
+}
+.headline {
+  margin-top: 50px;
+}
+.description {
+  margin-top: 30px;
+}
