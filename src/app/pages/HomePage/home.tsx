@@ -7,6 +7,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBowlFood } from "@fortawesome/free-solid-svg-icons";
 import { faGlassWater } from "@fortawesome/free-solid-svg-icons";
 import { faCakeCandles } from "@fortawesome/free-solid-svg-icons";
+import Family from "@/app//pages/HomePage/Family/family";
+import Event from "@/app/pages/HomePage/Events/event";
+import Card from "@/app/pages/HomePage/City/city";
 
 const home = () => {
   return (
@@ -102,6 +105,10 @@ const home = () => {
           </li>
         </ul>
       </section>
+
+      <Family />
+      <Event />
+      <Card />
     </>
   );
 };
